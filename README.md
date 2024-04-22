@@ -3,38 +3,38 @@
 
 ## Introduction
 This guide provides detailed instructions for installing YOLOv8 on Ubuntu systems, including the installation of TensorFlow, PyTorch, and other necessary Python packages.
-
+> note: It is generally recommended to install in a virtual environment, such as conda.
 
 ## Installation Steps
 
-## Update System and Install pip
+1. **Update System and Install pip**
 ```bash
 sudo apt update
 sudo apt install -y python3-pip
 pip3 install --upgrade pip
 ```
 
-## Installation Tensorflow
+2. **Installation Tensorflow**
 ```bash
 pip3 install tensorflow
 or
 pip3 install --user --upgrade tensorflow
 ```
 
-## Verify Installation
+3. **Verify Installation**
 
 ```bash
 python3 -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
 ```
 
 
-## Installation Pytorch
+4. **Installation Pytorch**
 
 ```bash
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 
-## Installation YOLOv8
+5. **Installation YOLOv8**
 ```bash
 cd ~/Documents
 git clone git@github.com:ultralytics/ultralytics.git
