@@ -29,7 +29,7 @@ python3 -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000,
 
 
 4. **Installation Pytorch**
-> note: Need to make sure torch version 
+> note: Need to make sure torch version.  
 > (This project use torch == 2.1.0+cu118, torchaudio == 2.1.0+cu118, torchvision == 0.16.0+cu118)
 
 ```bash
