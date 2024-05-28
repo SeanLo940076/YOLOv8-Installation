@@ -37,6 +37,8 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 ```
 
 5. **Installation YOLOv8**
+> (This project use OpenCV == 4.7.0)
+
 ```bash
 cd ~/Documents
 git clone git@github.com:ultralytics/ultralytics.git
